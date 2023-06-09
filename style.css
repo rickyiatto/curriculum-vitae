@@ -19,12 +19,13 @@ body {
 }
 
 .avatar {
-    height: 15vh;
+    width: 75%;
+    max-width: 15vh;
     display: block;
     margin: auto;
     border: solid 1px #F4EEFF;
-    margin-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin-top: 12.5%;
+    margin-bottom: 12.5%;
 }
 
 .inline {
@@ -37,4 +38,93 @@ body {
 
 .indent {
     margin-left: 0.5rem;
+}
+
+.nav-tooltip {
+    --bs-tooltip-bg: #A6B1E1;
+    --bs-tooltip-color: #424874;
+}
+
+.no-style-link {
+    text-decoration: none;
+}
+
+.contact-icons:hover {
+    color: #F4EEFF;
+}
+
+/* xs */
+@media only screen and (min-width: 0px) {
+
+    .n-header {
+        text-align: center;
+    }
+
+    .avatar {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .inline {
+        font-size: x-small;
+        padding: 2px;
+    }
+
+    .container-icons {
+        padding-bottom: 0.5rem;
+        padding-top: 2rem;
+    }
+
+    .contact-icons {
+        margin-left: 0.3rem;
+        margin-right: 0.3rem;
+    }
+
+}
+
+/* sm */
+@media only screen and (min-width: 576px) {
+
+    .inline {
+        font-size: small;
+    }
+
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* lg */
+@media only screen and (min-width: 992px) {
+
+    .n-header {
+        text-align: left;
+    }
+
+    #name {
+        font-size: xx-large;
+    }
+
+    .avatar {
+        margin-top: 12.5%;
+        margin-bottom: 12.5%;
+    }
+
+    .contact-icons {
+        font-size: large;
+    }
+
+    .container-icons {
+        text-align: right;
+        height: 100%;
+        align-self: end;
+    }
+
+}
+
+/* xl */
+@media only screen and (min-width: 1200px) {
+
 }
