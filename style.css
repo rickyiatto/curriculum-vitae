@@ -1,0 +1,40 @@
+body {
+    background-color: #F4EEFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.n-header {
+    background-color: #424874 !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-family: Ubuntu;
+    color: #F4EEFF;
+}
+
+.n-header i {
+    color: #A6B1E1;
+}
+
+#name {
+    margin-bottom: 1rem;
+}
+
+.avatar {
+    height: 15vh;
+    display: block;
+    margin: auto;
+    border: solid 1px #F4EEFF;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
+
+.inline {
+    display: inline;
+    width: auto;
+    padding: 0.3rem;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.indent {
+    margin-left: 0.5rem;
+}
