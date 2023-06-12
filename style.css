@@ -1,12 +1,22 @@
+/*
+
+primary-dark: #424874
+primary: #a6b1e1
+primary-light: #dcd6f7
+secondary: #d6e5e3
+tertiary: #cacfd6
+background-body: #f4d58d
+
+*/
+
 body {
     background-color: #F4EEFF;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Ubuntu;
 }
 
 .n-header {
     background-color: #424874 !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    font-family: Ubuntu;
     color: #F4EEFF;
 }
 
@@ -53,6 +63,54 @@ body {
     color: #F4EEFF;
 }
 
+.cv-body {
+    margin-top: 1rem;
+}
+
+.cv-section-title {
+    color: #424874;
+    padding-left: 1rem;
+    margin-bottom: 0.9rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cv-el-card {
+    background-color: #dcd6f775;
+    border: solid 1px #A6B1E1;
+    margin-bottom: 0.55rem;
+}
+
+.el-descrizione {
+    color: #424874;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.el-azienda {
+    color: #a6b1e1;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.el-info {
+    color: rgb(133, 132, 132);
+    font-weight: bold;
+}
+
+.space-before {
+    margin-left: 1.5rem;
+}
+
+.cv-el-card-section {
+    background-color: #424874;
+    color: #F4EEFF;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
 /* xs */
 @media only screen and (min-width: 0px) {
 
@@ -80,6 +138,14 @@ body {
         margin-right: 0.3rem;
     }
 
+    .el-descrizione {
+        font-size: 0.9rem;
+    }
+
+    .el-azienda {
+        font-size: 0.75rem;
+    }
+
 }
 
 /* sm */
@@ -87,6 +153,14 @@ body {
 
     .inline {
         font-size: small;
+    }
+
+    .el-descrizione {
+        font-size: 1.2rem;
+    }
+
+    .el-azienda {
+        font-size: 0.9rem;
     }
 
 }

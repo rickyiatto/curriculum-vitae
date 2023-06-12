@@ -10,33 +10,40 @@ function getData() {
         mail: "riccardo.iattoni92@gmail.com",
         esperienzeLavorative: [
             {
-                periodo: "03/2022-oggi",
-                descrizione: "ANALISTA PROGRAMMATORE a tempo indeterminato presso IMOLA INFORMATICA SPA",
-                luogo: "IMOLA"
+                periodo: "03/2022  -oggi",
+                descrizione: "ANALISTA PROGRAMMATORE a tempo indeterminato",
+                azienda: "Imola Informatica S.P.A.",
+                luogo: "Imola"
             },
             {
-                periodo: "07/2021-03/2022",
-                descrizione: "CO.CO.CO. presso IMOLA INFORMATICA SPA",
-                luogo: "IMOLA"
+                periodo: "07/2021 - 03/2022",
+                descrizione: "CO.CO.CO.",
+                azienda: "Imola Informatica S.P.A.",
+                luogo: "Imola"
             },
             {
-                periodo: "08/2020-09/2020",
-                descrizione: "TIROCINIO CURRICOLARE presso IMOLA INFORMATICA SPA",
-                luogo: "IMOLA"
+                periodo: "08/2020 - 09/2020",
+                descrizione: "TIROCINIO CURRICOLARE",
+                azienda: "Imola Informatica S.P.A.",
+                luogo: "Imola"
             },
             {
-                periodo: "05/2019-oggi",
-                descrizione: "GRAFICO FREELANCE presso EVENTI CATERING",
-                luogo: "RUSSI"
+                periodo: "05/2019 - oggi",
+                descrizione: "GRAFICO FREELANCE",
+                azienda: "Eventi Catering",
+                luogo: "Russi"
             },
             {
-                periodo: "08/2015-05/2022",
-                descrizione: "GIOCATORE SEMIPROFESSIONISTA di pallacanestro (Serie B LNP)"
+                periodo: "08/2015 - 05/2022",
+                descrizione: "GIOCATORE SEMIPROFESSIONISTA di pallacanestro (Serie B LNP)",
+                azienda: "Lega Nazionale Pallacanestro",
+                luogo: "Italia"
             },
             {
-                periodo: "Stagione estiva 2018",
-                descrizione: "RESPONSABILE BAR ESTERNO presso AMARISSIMO",
-                luogo: "LIDO di SAVIO"
+                periodo: "05/2018 - 09/2018",
+                descrizione: "RESPONSABILE BAR ESTERNO",
+                azienda: "Amarissimo",
+                luogo: "Lido di Savio"
             }
         ],
         percorsoEducativo: [
