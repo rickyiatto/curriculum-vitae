@@ -53,24 +53,38 @@
         </div>
         <!-- body -->
         <div class="container-fluid cv-body">
-            <div class="row align-items-center">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                    <div class="card shadow-sm cv-el-card-section">
-                        ESPERIENZE LAVORATIVE 
-                    </div>
-                    <!--<p class="cv-section-title">ESPERIENZE LAVORATIVE</p>-->
-                    <div id="cv-el-container"></div>
-                </div>
-                
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                  <h4 class="cv-section-title">Percorso Educativo</h4>
-                  <div class="card cv-el-card">
-                        <div class="card-body p1">
-                          <p class="el-descrizione">Analista programmatore a tempo indeterminato</p>
-                          <p class="el-azienda">Imola Informatica S.p.a.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3">
+                    <div class="accordion" id="accordionEl">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEl" aria-expanded="false" aria-controls="collapseEl">
+                                <i class="bi bi-briefcase-fill" style="font-size: 1.2rem;"></i> &emsp;Esperienze Lavorative
+                            </button>
+                          </h2>
+                          <div id="collapseEl" class="accordion-collapse collapse" data-bs-parent="#accordionEl">
+                            <div class="accordion-body">
+                                <div id="cv-el-container"></div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-3">
+                    <div class="accordion" id="accordionPE">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePE" aria-expanded="false" aria-controls="collapsePE">
+                                <i class="bi bi-mortarboard-fill" style="font-size: 1.2rem;"></i> &emsp;Percorso Educativo
+                            </button>
+                          </h2>
+                          <div id="collapsePE" class="accordion-collapse collapse" data-bs-parent="#accordionPE">
+                            <div class="accordion-body">
+                                <div id="cv-pe-container"></div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
