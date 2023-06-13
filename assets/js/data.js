@@ -10,28 +10,28 @@ function getData() {
         mail: "riccardo.iattoni92@gmail.com",
         esperienzeLavorative: [
             {
-                periodo: "03/2022  -oggi",
+                periodo: "03/2022 - oggi",
                 descrizione: "ANALISTA PROGRAMMATORE a tempo indeterminato",
                 azienda: "Imola Informatica S.P.A.",
-                luogo: "Imola"
+                luogo: "Imola (BO)"
             },
             {
                 periodo: "07/2021 - 03/2022",
                 descrizione: "CO.CO.CO.",
                 azienda: "Imola Informatica S.P.A.",
-                luogo: "Imola"
+                luogo: "Imola (BO)"
             },
             {
                 periodo: "08/2020 - 09/2020",
                 descrizione: "TIROCINIO CURRICOLARE",
                 azienda: "Imola Informatica S.P.A.",
-                luogo: "Imola"
+                luogo: "Imola (BO)"
             },
             {
                 periodo: "05/2019 - oggi",
                 descrizione: "GRAFICO FREELANCE",
                 azienda: "Eventi Catering",
-                luogo: "Russi"
+                luogo: "Russi (RA)"
             },
             {
                 periodo: "08/2015 - 05/2022",
@@ -43,24 +43,27 @@ function getData() {
                 periodo: "05/2018 - 09/2018",
                 descrizione: "RESPONSABILE BAR ESTERNO",
                 azienda: "Amarissimo",
-                luogo: "Lido di Savio"
+                luogo: "Lido di Savio (RA)"
             }
         ],
         percorsoEducativo: [
             {
                 periodo: "03/2022",
-                descrizione: "ALMA MATER STUDIORUM - Laurea Triennale in Informatica per il Management con LODE",
-                luogo: "BOLOGNA"
+                descrizione: "Laurea Triennale in Informatica per il Management con LODE",
+                azienda: "Alma Mater Studiorum",
+                luogo: "Bologna (BO)"
             },
             {
                 periodo: "07/2015",
-                descrizione: "ALMA MATER STUDIORUM - Laurea Triennale in Ingegneria Energetica",
-                luogo: "BOLOGNA"
+                descrizione: "Laurea Triennale in Ingegneria Energetica",
+                azienda: "Alma Mater Studiorum",
+                luogo: "Bologna (BO)"
             },
             {
-                periodo: "07/2021",
-                descrizione: "LICEO SCIENTIFICO N.COPERNICO - Diploma di istruzione liceale",
-                luogo: "BOLOGNA"
+                periodo: "07/2011",
+                descrizione: "Diploma di istruzione liceale",
+                azienda: "Liceo Scientifico N.Copernico",
+                luogo: "Bologna (BO)"
             }
         ],
         competenzeLinguistiche: [

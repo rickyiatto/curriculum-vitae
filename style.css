@@ -63,10 +63,6 @@ body {
     color: #F4EEFF;
 }
 
-.cv-body {
-    margin-top: 1rem;
-}
-
 .cv-section-title {
     color: #424874;
     padding-left: 1rem;
@@ -83,20 +79,18 @@ body {
 
 .el-descrizione {
     color: #424874;
-    font-size: 1.2rem;
     margin-bottom: 0;
 }
 
 .el-azienda {
     color: #a6b1e1;
     font-size: 0.9rem;
-    font-weight: bold;
+    font-weight: 600;
     margin-bottom: 0;
 }
 
 .el-info {
     color: rgb(133, 132, 132);
-    font-weight: bold;
 }
 
 .space-before {
@@ -106,9 +100,33 @@ body {
 .cv-el-card-section {
     background-color: #424874;
     color: #F4EEFF;
-    text-align: center;
     margin-bottom: 0.5rem;
     font-weight: bold;
+}
+
+.accordion-button.collapsed {
+    background-color: #424874;
+    color: #F4EEFF;
+    box-shadow: none;
+}
+
+.accordion-button.collapsed::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #424874;
+    color: #F4EEFF;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-item {
+    background-color: #F4EEFF;
+    border-width: 0px;
 }
 
 /* xs */
@@ -156,11 +174,11 @@ body {
     }
 
     .el-descrizione {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .el-azienda {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
 
 }
