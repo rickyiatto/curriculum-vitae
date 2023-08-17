@@ -129,6 +129,43 @@ body {
     border-width: 0px;
 }
 
+.cl-lingua {
+    color: #424874;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.progress {
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    border: solid 0.5px #424874;
+}
+
+.progress-bar {
+    background-color: #424874;
+}
+
+.badge {
+    background-color: #A6B1E1;
+    margin: 0.25rem 0.1rem;
+    padding: 0.4rem 1rem;
+    color:  #424874;
+    font-weight: 250;
+}
+
+.modal-header {
+    background-color: #424874;
+    color: #F4EEFF;
+    font-size: normal;
+}
+
+.modal-body {
+    background-color: #F4EEFF;
+    color: #424874;
+    font-size: 0.8rem;
+}
+
 /* xs */
 @media only screen and (min-width: 0px) {
 

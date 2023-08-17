@@ -68,55 +68,103 @@ function getData() {
         ],
         competenzeLinguistiche: [
             {
-                lingua: "MADRELINGUA",
-                livello: "Italiano"
+                lingua: "Italiano",
+                livello: "MADRELINGUA"
             },
             {
-                lingua: "LIVELLO INTERMEDIO",
-                livello: "Inglese"
+                lingua: "Inglese",
+                livello: "LIVELLO INTERMEDIO"
             }
         ],
-        conoscenzeInformatiche: [
+        competenzeInformatiche: [
             {
-                livello: "BASE",
-                conoscenza: "Principali sistemi operativi (Windows, MacOS, Linux)"
+                livello: "LIVELLO BASE",
+                competenza: "Windows"
             },
             {
-                livello: "BASE",
-                conoscenza: "Framework frontend (React, Angular)"
+                livello: "LIVELLO BASE",
+                competenza: "MacOS"
             },
             {
-                livello: "INTERMEDIO",
-                conoscenza: "Pacchetto Microsoft Office"
+                livello: "LIVELLO BASE",
+                competenza: "Linux"
             },
             {
-                livello: "INTERMEDIO",
-                conoscenza: "Pipeline CI/CD (Jenkins)"
+                livello: "LIVELLO BASE",
+                competenza: "MongoDB"
             },
             {
-                livello: "INTERMEDIO",
-                conoscenza: "Sistemi di versionamento del codice (git)"
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "React"
             },
             {
-                livello: "AVANZATA",
-                conoscenza: "Software per la grafica 2D (Inkscape, Gimp, AutoCAD)"
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "Angular"
             },
             {
-                livello: "AVANZATA",
-                conoscenza: "Principi della programmazione OOP e relativi Design Patterns"
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "Pacchetto Microsoft Office"
             },
             {
-                livello: "AVANZATA",
-                conoscenza: "Linguaggi di programmazione (Java, Javascript, HTML, css)"
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "Pipeline CI/CD (Jenkins)"
             },
             {
-                livello: "AVANZATA",
-                conoscenza: "Framework backend (SpringBoot)"
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "Git"
             },
             {
-                livello: "AVANZATA",
-                conoscenza: "Database SQL (MySQL, Oracle, Postgres)"
-            }        
+                livello: "LIVELLO INTERMEDIO",
+                competenza: "Gitflow"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Principi della programmazione OOP"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Design Patterns"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Java"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Javascript"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "HTML"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "css"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "SpringBoot"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "MySQL"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Oracle"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Postgres"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Inkscape"
+            },
+            {
+                livello: "LIVELLO AVANZATO",
+                competenza: "Gimp"
+            }  
         ],
 
         altreInfo: [
