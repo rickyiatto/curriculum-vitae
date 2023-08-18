@@ -104,6 +104,11 @@ body {
     font-weight: bold;
 }
 
+.accordion-button.collapsed:hover {
+    background-color: #A6B1E1;
+    color: #424874;
+}
+
 .accordion-button.collapsed {
     background-color: #424874;
     color: #F4EEFF;
